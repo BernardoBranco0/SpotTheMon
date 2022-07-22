@@ -1,0 +1,12 @@
+#information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.DB{
+    color:grey;
+}
+
+#blogsP{
+    height: 200px;
+}

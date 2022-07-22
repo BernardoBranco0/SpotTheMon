@@ -1,0 +1,102 @@
+body{
+  background-color:lightgray;
+}
+
+#monbox {
+  box-shadow: 0 0 20px white;
+  -moz-box-shadow: 0 0 20px white;
+  -webkit-box-shadow: 0 0 20px white;
+  -o-box-shadow: 0 0 20px white;
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 60%;
+  background-color:white;
+}
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+#image {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #606060;
+}
+
+#nome {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #606060;
+}
+#ano {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #606060;
+}
+#freguesia {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #606060;
+}
+
+#desc {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 176%;
+  color: #606060;
+}
+
+
+
+#conf {
+  background-color: #005578;
+  border: none;
+  color: #fff;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 40px;
+  margin: 10px 20px;
+  margin-top: 20px;
+}
+
+
+#start {
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #606060;
+  grid-column: 1/3;
+  width: 30%;
+}
+
+
+

@@ -1,0 +1,68 @@
+body {
+  font: Open Sans;
+  background-color: lightgrey;
+}
+
+input[type="text"] {
+  width: 340px;
+  height: 80px;
+  background-color: #ffffff;
+  text-align: left;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.btn {
+  border-radius: 40px;
+  background-color: #005578;
+  width: 340px;
+  height: 61px;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+#forml {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 40px;
+    border-color: #005578;
+}
+
+#imgh {
+  width: 221.87px;
+  height: 130px;
+}
+
+#maint{
+    font-size: 48px;
+    line-height: 56.25px
+}
+
+.menuBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    padding: 18px;
+    display: flex;
+    margin-bottom: 20px;
+    color: black;
+    height: 40px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+

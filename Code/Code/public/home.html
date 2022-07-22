@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+  <head>
+    <title>Portal de Carpooling</title>
+    <link rel="stylesheet" href="stylesheets/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascripts/lrm-graphhopper.js"></script>
+    <link rel="stylesheet" href="javascripts/leaflet-routing-machine-3.2.12/dist/leaflet-routing-machine.css" />
+    <script src="javascripts/leaflet-routing-machine-3.2.12/dist/leaflet-routing-machine.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/map.css">
+    <script src="javascripts/map.js"></script>
+    <script src="javascripts/home.js"></script>
+  </head>
+  <body>
+        <div class= "menuBar">
+          <div class="leftMenu">
+            <a href="home.html"><img src="images/home.png" id="homeImage" class="homeImageC"></a>
+            <a href="home.html" class="menuSections">Home</a>
+            <a href="cMon.html" class="menuSections">Novo Monumento</a>
+            <a href="blogs.html" class="menuSections">Blogs</a>
+          </div>
+            <div class="rightMenu">
+              <a href="profile.html"> <img src="images/User.png" id="userIcon"></a>
+              <a> <img src="images/Logout.png" id="logout" onclick="logout()"></a>
+            </div>
+        </div>
+        <div class="main">
+          <h1 id="tmain">Reviva a história em um click</h1>
+        </div>
+        <div id="map"></div>
+        <div id="tinfor"><h1>Sugestões de Monumentos Lisboa</h1></div>
+        <div id="infor">
+          <p><strong>Jerónimos</strong><br>O Mosteiro de Santa Maria de Belém, mais conhecido como Mosteiro dos Jerónimos, é um mosteiro português, mandado construir no final do século XV pelo rei D. Manuel I, situa-se na freguesia de Belém, na cidade e concelho de Lisboa.</p>
+          <p><strong>Torre de Belém</strong><br> A Torre de Belém, antigamente Torre de São Vicente a Par de Belém, oficialmente Torre de São Vicente, é uma fortificação localizada na freguesia de Belém, concelho e distrito de Lisboa</p>
+          <p><strong>Padrão dos Descobrimentos</strong><br> O Padrão dos Descobrimentos localiza-se na freguesia de Belém, na cidade e Distrito de Lisboa, em Portugal. A conceção arquitetónica é de Cottinelli Telmo e as esculturas são de Leopoldo de Almeida.</p>
+         
+        </div>
+
+        <div id="ep">
+          <div class="left">
+            <p>Como Funciona</p>
+            <p>Condições de utilização</p>
+            <img src="images/UE.png" id="ue">
+            <p>Sobre nós</p>
+            <p>FAQ</p>
+          </div>
+          <div id="end">Spot the Mon é uma plataforma que te ajuda a localizar os diferentes monumentos na área metropolitana de Lisboa e auxilia na hora de criar um trajeto até aos teus monumentos preferidos</div>
+        </div>
+
+        
+        
+
+
+  
+  
+  </body>

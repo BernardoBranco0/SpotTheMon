@@ -1,0 +1,20 @@
+body{
+    background-color:lightgrey;
+}
+
+#information{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.DB{
+    color:grey;
+}
+.desc{
+    color:grey;
+    text-align: justify;
+}
+
+#monimg{
+    width: 100%;
+}
