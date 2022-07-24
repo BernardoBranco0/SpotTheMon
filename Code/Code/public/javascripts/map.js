@@ -21,7 +21,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
 
 
 }
-function setRide(idx){
+function setRotas(idx){
   start = latlng
   setRota(idx)
 };
@@ -31,7 +31,7 @@ function setfinal(idx){
   mon = mons[idx];
   end = L.latLng(mon.M_lat,  mon.M_long)
   console.log(end)
-  setRide();
+  setRota();
 };
 
 
