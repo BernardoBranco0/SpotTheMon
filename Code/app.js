@@ -9,6 +9,8 @@ var usersRouter = require('./routes/users');
 var clienteRouter = require("./routes/clienteRoute");
 var monRouter = require("./routes/monRoute");
 var loginRouter = require("./routes/loginRoute");
+var grupoRouter = require("./routes/grupoRoute");
+var imageRouter = require("./routes/imageRoute");
 
 var app = express();
 app.use(cors());
@@ -23,5 +25,7 @@ app.use("/", indexRouter);
 app.use("/API/clientes", clienteRouter);
 app.use("/api/mons", monRouter);
 app.use("/api/logins", loginRouter);
+app.use("/api/grupos", grupoRouter);
+app.use("/api/images", imageRouter);
 app.use('/users', usersRouter);
 module.exports = app;

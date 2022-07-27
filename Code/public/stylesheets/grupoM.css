@@ -1,0 +1,30 @@
+#imgGrupo{
+    width: 300px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#grupoI{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    place-items: center;
+    padding: 20px;
+
+}
+
+.btn {
+    border-radius: 40px;
+    background-color: #005578;
+    width: 340px;
+    height: 61px;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+#final{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}

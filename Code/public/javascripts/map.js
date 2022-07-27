@@ -20,6 +20,7 @@ navigator.geolocation.getCurrentPosition(function(location) {
 })
 
 
+
 }
 function setRotam(idx){
   start = latlng
@@ -68,11 +69,11 @@ async function monMarkers(){
   });
   for (var idx in mons) {
       let mon = mons[idx];
-      L.marker({lat: mon.M_lat, lon: mon.M_long}, {icon: monIcon}).bindPopup(`<p>Monumento: ${mon.Nome}</p><img src= ${mon.image} id="imgMon"><p><button id= "reserva" onclick="mostralocalizacao(${idx})">Ver</button><p><button id= "reserva" onclick="setfinal(${idx})">Rota</button>`).addTo(map);
+      L.marker({lat: mon.M_lat, lon: mon.M_long}, {icon: monIcon}).bindPopup(`<p>Monumento: ${mon.Nome}</p><img src= ${mon.image} id="imgMon"><p><button id= "reserva" onclick="mostrarmon(${idx})">Ver</button><p><button id= "reserva" onclick="setfinal(${idx})">Rota</button>`).addTo(map);
   }
 }
 
-function mostralocalizacao(idx) {
+function mostrarmon(idx) {
   sessionStorage.setItem("mon", JSON.stringify(mons[idx]));
   window.location = "mon.html";
 }

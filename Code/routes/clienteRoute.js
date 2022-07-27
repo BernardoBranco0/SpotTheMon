@@ -14,16 +14,6 @@ router.get("/getByCliente/:clientes", async function (req, res, next) {
 });
 
 
-router.put("/:id", async function (req, res, next) {
-  console.log(req.body);
-  let cliente = await Cliente.update(req.params.id, req.body);
-  res.send(cliente);
-});
-
-router.delete("/:id", async function (req, res, next) {
-  let cliente = await Cliente.delete(req.params.id);
-  res.send({ rowsAffected: cliente });
-});
 
 
 
